@@ -7,9 +7,9 @@ spring:
   application:
     name: ead-authuser-service
   datasource:
-    url: ${DATABASE_URL}
-    username: ${DATABASE_USER}
-    password: ${DATABASE_PASSWORD}
+    url: jdbc:postgresql://localhost:5432/ead-authuser-v2
+    username: postgres
+    password: abc12345
   jpa:
     hibernate:
       ddl-auto: update
@@ -22,7 +22,7 @@ spring:
       ansi:
         enabled: Always
   rabbitmq:
-    addresses: ${RABBIT_MQ_URL}
+    addresses: amqps://pseystgn:stM9AJ0Gug1vkQVqX6egvazlR4xru5qD@albatross.rmq.cloudamqp.com/pseystgn
 
 logging:
   level:
