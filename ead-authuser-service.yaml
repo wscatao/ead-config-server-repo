@@ -40,7 +40,7 @@ ead:
       userEvent: ead.userevent
 
 authuser:
-  refreshcope:
+  refreshscope:
     name: Willy Catao
 
 management:
