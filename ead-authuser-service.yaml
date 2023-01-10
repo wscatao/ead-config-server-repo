@@ -39,6 +39,18 @@ ead:
     exchange:
       userEvent: ead.userevent
 
+authuser:
+  refreshcope:
+    name: Willy Catao
+
+management:
+  endpoint:
+    web:
+      exposure:
+        include:
+          -refresh
+          -health
+
 resilience4j:
   circuitbreaker:
     instances:
