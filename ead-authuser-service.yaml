@@ -41,15 +41,15 @@ ead:
 
 authuser:
   refreshscope:
-    name: Willy Catao UPDATE!!!
+    name: Michelli Brito UPDATE!!!!!!!
 
 management:
-  endpoint:
+  endpoints:
     web:
       exposure:
         include:
-          -refresh
-          -health
+          - refresh
+          - health
 
 resilience4j:
   circuitbreaker:
