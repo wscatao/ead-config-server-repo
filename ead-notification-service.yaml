@@ -6,8 +6,6 @@ server:
 spring:
   application:
     name: ead-notification-service
-  config:
-    import: 'optional:configserver:'
   cloud:
     config:
       discovery:
@@ -58,10 +56,3 @@ management:
         include:
           - refresh
           - health
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: 'http://localhost:8761/eureka'
-  instance:
-    hostname: localhost
